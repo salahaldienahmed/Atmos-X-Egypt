@@ -1,6 +1,7 @@
 <div align="center">
   <img src="Team%20Logo.png" alt="DATA NOVA Logo" width="250">
 </div>
+
 # Atmos-X: Egyptian Governorates Air Quality Analytics
 
 ## Project Name
