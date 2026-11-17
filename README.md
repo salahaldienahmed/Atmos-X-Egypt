@@ -1,19 +1,20 @@
 <div align="center">
-  <!-- لوجو Atmos-X الأساسي بحجم بارز -->
+  <!-- لوجو Atmos-X الأساسي بحجم بارز<div align="center">
+  <!-- لوجو Atmos-X الأساسي بحجم كبير وبارز -->
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="Atmos-X_Dark.png">
     <source media="(prefers-color-scheme: light)" srcset="Atmos-X_Dark.png">
-    <img alt="Atmos-X Logo" src="Atmos-X_Dark.png" width="320">
+    <img alt="Atmos-X Logo" src="Atmos-X_Dark.png" width="380">
   </picture>
   
   <!-- كلمة Powered by بحجم صغير جداً ومسافة رأسية ضيقة -->
-  <p style="margin: 10px 0 5px 0;"><font size="2" color="gray"><i>Powered by</i></font></p>
+  <p style="margin: 12px 0 6px 0;"><font size="2" color="gray"><i>Powered by</i></font></p>
   
-  <!-- لوجو DATA NOVA بحجم صغير كختم فرعي -->
+  <!-- لوجو DATA NOVA بحجم متوسط وواضح كختم فرعي -->
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="Logo-Dark.png">
     <source media="(prefers-color-scheme: light)" srcset="Logo-Light.png">
-    <img alt="DATA NOVA Logo" src="Logo-Dark.png" width="100">
+    <img alt="DATA NOVA Logo" src="Logo-Dark.png" width="140">
   </picture>
 </div>
 
