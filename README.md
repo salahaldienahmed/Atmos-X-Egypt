@@ -1,5 +1,9 @@
 <div align="center">
-  <img src="Team%20Logo.png" alt="DATA NOVA Logo" width="250">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="Logo-Dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="Logo-Light.png">
+    <img alt="DATA NOVA Logo" src="Logo-Dark.png" width="250">
+  </picture>
 </div>
 
 # Atmos-X: Egyptian Governorates Air Quality Analytics
