@@ -14,6 +14,22 @@ Atmos-X (Powered by DATA NOVA Team)
 ## Project Idea
 An end-to-end data analytics project aimed at monitoring and analyzing air quality and environmental metrics across various Egyptian governorates. The project provides actionable insights through interactive, dark-themed Glassmorphism dashboards, enabling users to track pollution levels, weather conditions, and climate trends effectively.
 
+## 🔄 End-to-End Architecture & Pipeline
+
+```mermaid
+graph LR
+    A[Python Data Extraction] --> B[SQL Cleaning & Unions]
+    B --> C[Power Query M-Code Transformations]
+    C --> D[Data Modeling Star Schema & DAX]
+    D --> E[Power BI & Excel Dashboards]
+    
+    style A fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#fff
+    style B fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#fff
+    style C fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#fff
+    style D fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#fff
+    style E fill:#0f172a,stroke:#facc15,stroke-width:2px,color:#fff
+```
+
 ## 🛠️ Tools & Technologies Used
 <div align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
