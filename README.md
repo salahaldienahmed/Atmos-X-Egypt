@@ -17,33 +17,27 @@ An end-to-end data analytics project aimed at monitoring and analyzing air quali
 ## 🔄 End-to-End Architecture & Pipeline
 
 ```mermaid
-graph LR
-    A[Python Data Extraction] --> B[SQL Cleaning & Unions]
-    B --> C[Power Query M-Code Transformations]
-    C --> D[Data Modeling Star Schema & DAX]
-    D --> E[Power BI & Excel Dashboards]
-    
-    style A fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#fff
-    style B fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#fff
-    style C fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#fff
-    style D fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#fff
-    style E fill:#0f172a,stroke:#facc15,stroke-width:2px,color:#fff
+flowchart LR
+    A([Python Extraction]) --> B[(SQL Cleaning and Unions)]
+    B --> C{{Power Query M-Code}}
+    C --> D[(Data Modeling and DAX)]
+    D --> E([Power BI Dashboards])
 ```
 
 ## 🛠️ Tools & Technologies Used
 <div align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
-  <img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" alt="Excel" />
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
+  <img src="[https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)" alt="Python" />
+  <img src="[https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)" alt="SQL" />
+  <img src="[https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)" alt="Excel" />
+  <img src="[https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)" alt="Power BI" />
 </div>
 
 ## Team Members
-* Abdelrhman Mohamed Sharaf
-* Ahmed Ekramy Elnaggar
-* Mohamed Osama Roshdy
-* Mostafa Mohamed Gaber
-* Salah Al-Dien Ahmed Salah
+- Abdelrhman Mohamed Sharaf
+- Ahmed Ekramy Elnaggar
+- Mohamed Osama Roshdy
+- Mostafa Mohamed Gaber
+- Salah Al-Dien Ahmed Salah
 
 ## Work Plan
 1. **Requirement Gathering & Domain Research:** Defining project scope, target audience, and key environmental problems.
@@ -54,24 +48,24 @@ graph LR
 6. **UI/UX Design & Dashboarding:** Designing customized Glassmorphism / Dark UI templates and building final interactive dashboards in Excel and Power BI.
 
 ## Roles & Responsibilities
-* **Abdelrhman Mohamed Sharaf (Data Engineer):** Data Collection via Python, Data Pre-processing, and Data Integration using SQL (Joins & Unions).
-* **Ahmed Ekramy Elnaggar (Business / Research Analyst):** Domain Research, Identifying Environmental Problems & Solutions, Business Requirements Gathering, and Documentation.
-* **Mohamed Osama Roshdy (BI Developer):** Data Collection via Python, Data Visualization, and Dashboard Development using Power BI.
-* **Mostafa Mohamed Gaber (Quality Assurance / Research Analyst):** Domain Research, Data Validation, KPI Identification, and Assisting in Problem-Solving Strategies.
-* **Salah Al-Dien Ahmed Salah (Team Leader & Junior Data Analyst):** Project Management, Workflow Verification, Data Pre-processing via Power Query (Excel & Power BI), Excel Executive Dashboard Design, and UI/UX Development.
+- **Abdelrhman Mohamed Sharaf (Data Engineer):** Data Collection via Python, Data Pre-processing, and Data Integration using SQL (Joins & Unions).
+- **Ahmed Ekramy Elnaggar (Business / Research Analyst):** Domain Research, Identifying Environmental Problems & Solutions, Business Requirements Gathering, and Documentation.
+- **Mohamed Osama Roshdy (BI Developer):** Data Collection via Python, Data Visualization, and Dashboard Development using Power BI.
+- **Mostafa Mohamed Gaber (Quality Assurance / Research Analyst):** Domain Research, Data Validation, KPI Identification, and Assisting in Problem-Solving Strategies.
+- **Salah Al-Dien Ahmed Salah (Team Leader & Junior Data Analyst):** Project Management, Workflow Verification, Data Pre-processing via Power Query (Excel & Power BI), Excel Executive Dashboard Design, and UI/UX Development.
 
 ## KPIs
-* Average AQI (Air Quality Index)
-* Average Temperature & Humidity
-* Particulate Matter Levels (PM2.5 & PM10)
-* Carbon Monoxide (CO) & Nitrogen Dioxide (NO2)
-* Wind Speed and Atmospheric Pressure
+- Average AQI (Air Quality Index)
+- Average Temperature & Humidity
+- Particulate Matter Levels (PM2.5 & PM10)
+- Carbon Monoxide (CO) & Nitrogen Dioxide (NO2)
+- Wind Speed and Atmospheric Pressure
 
 ## Instructor
 Eng. Kareem Bakli
 
 ## Project Files
-* `Atmos-X_Data.xlsx`: Cleaned dataset and Excel Executive Dashboard.
-* `Atmos-X_Dashboard.pbix`: The final interactive Power BI analytical dashboard.
-* `Background_Templates/`: UI/UX customized Glassmorphism background images.
-* `Presentation.pdf`: Final project presentation slide deck.
+- `Atmos-X_Data.xlsx`: Cleaned dataset and Excel Executive Dashboard.
+- `Atmos-X_Dashboard.pbix`: The final interactive Power BI analytical dashboard.
+- `Background_Templates/`: UI/UX customized Glassmorphism background images.
+- `Presentation.pdf`: Final project presentation slide deck.
